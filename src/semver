@@ -161,7 +161,7 @@ function command-compare {
 }
 
 case $# in
-  0) cli-print ;;
+  0) usage-help ;;
 esac
 
 case $1 in
